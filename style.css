@@ -1,0 +1,25 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.image{
+  background: url('https://beapythondev.files.wordpress.com/2020/01/canva-software-developer-working.jpg?w=800') no-repeat center fixed;
+ 
+  background-size: cover ;
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+.text{
+  text-align: center;
+  position:absolute;
+  top: 50%;
+ left: 50%;
+ color: aqua;
+ transform: translate(-50%, -50%);
+ 
+}
+.button{
+  padding: 5px;;
+}
